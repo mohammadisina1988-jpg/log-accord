@@ -53,3 +53,7 @@ changes its root while retaining the original signature. It independently
 checks the resulting state, signatures and RFC consistency paths. Generic
 CLI transport and test signing helpers are reused under MIT from
 [ArchiveLift](https://github.com/gabrieladash123-bit/archive-lift).
+
+The valid run advanced from a three-leaf prefix to a signed checkpoint of
+3,501,950,757 leaves. Both runs verified 11 finalized receipts.
+[StudioNet receipts and addresses](proofs/README.md) · [Submission text](SUBMISSION.md)

@@ -1,0 +1,86 @@
+{
+  "scenario": "forged",
+  "contract": "0x4637645904B30c3Eeff316f676EB7D9E9F061e12",
+  "deployment": "0x22578c650bb860b48114dcf8cfaa4dc951aa2706af46620cea40655dbc7fe137",
+  "revision": "43f2a134b3518af4e4a9334d0c381d10b058f0ce",
+  "source_sha256": "5d5eedf264ddbfd118a9bc88bc516a68c744aceb9c4d218d7b05821ee5297a48",
+  "trace": [
+    {
+      "label": "deploy",
+      "hash": "0x22578c650bb860b48114dcf8cfaa4dc951aa2706af46620cea40655dbc7fe137",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xb3112a6c86dfc23f9d56065fda6664a7691aa3fc",
+      "args": {
+        "args": [
+          "https://raw.githubusercontent.com/mohammadisina1988-jpg/log-accord/43f2a134b3518af4e4a9334d0c381d10b058f0ce/anchors/forged.json",
+          0
+        ]
+      },
+      "error": null,
+      "state": {
+        "anchor_prefix_size": 0,
+        "anchor_url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/log-accord/43f2a134b3518af4e4a9334d0c381d10b058f0ce/anchors/forged.json",
+        "checkpoints": 0,
+        "head": null,
+        "leaf_count": 0,
+        "prefix_count": 0
+      }
+    },
+    {
+      "label": "before-anchor",
+      "hash": "0x47adbe94ed82a7ff84963799a386ce08d635001867233a18cd796d716e066a3f",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x0a9982e3071cb6cda07c1b3da51c28a849c65b4d",
+      "args": {
+        "method": "sync",
+        "args": [
+          3
+        ]
+      },
+      "error": "CT anchor required",
+      "state": {
+        "anchor_prefix_size": 0,
+        "anchor_url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/log-accord/43f2a134b3518af4e4a9334d0c381d10b058f0ce/anchors/forged.json",
+        "checkpoints": 0,
+        "head": null,
+        "leaf_count": 0,
+        "prefix_count": 0
+      }
+    },
+    {
+      "label": "forged-anchor",
+      "hash": "0x5f51d56f55e437726974c38b1ebd9bc3e51f3f71ec067003c993083c0c7e08d8",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x0a9982e3071cb6cda07c1b3da51c28a849c65b4d",
+      "args": {
+        "method": "seed",
+        "args": []
+      },
+      "error": "CT head signature invalid",
+      "state": {
+        "anchor_prefix_size": 0,
+        "anchor_url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/log-accord/43f2a134b3518af4e4a9334d0c381d10b058f0ce/anchors/forged.json",
+        "checkpoints": 0,
+        "head": null,
+        "leaf_count": 0,
+        "prefix_count": 0
+      }
+    }
+  ],
+  "records": {}
+}
